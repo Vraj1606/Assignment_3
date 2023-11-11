@@ -1,0 +1,278 @@
+.nav_line{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), #9cc03c);   
+    width: 100%;
+    float: left;
+
+}
+.my_nav_bar{
+    margin-top: 1em;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), #9cc03c);   
+    width: 100%;
+}
+.my_logo{
+    width: 200px;
+    height: 70px;
+}
+.my_btn{
+    color: #fff;
+    border-color: #fff;
+
+}
+.my_btn:hover{
+    background-color:#5c2d91 ;
+   
+}
+.my_banner{
+    width: 100%;
+    
+    
+   
+}
+.carousel{
+    position: unset;
+}
+.my_carousel_button{
+    margin-top: 100px;
+}
+.green{  
+ background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), #9cc03c);   
+}
+
+.my_image{
+    height: auto;
+    overflow: hidden;
+    margin-left: 0%;
+    width: 100%;
+    
+    
+}
+.my_heading{
+    
+    text-align: center;
+    font-size: 58px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 19%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.my_heading_buy{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.my_image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my_image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust the shadow as needed */
+}
+ 
+
+
+.nutrition-table {
+    margin: 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.row.lastchild{
+    border-bottom: 0px;
+}
+
+.row.header {
+    font-weight: bold;
+}
+
+/* Clear the float to ensure proper alignment */
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    /* Make columns stack on top of each other for small screens */
+    .column {
+        width: 100%;
+    }
+}
+.my_button_2:hover{
+    background-color: #fff;
+    color: #5c2d91;
+    transition: all 0.3s ease;
+}
+.my_button:hover{
+    background-color: #fff;
+    color: #5c2d91;
+    transition: all 0.3s ease;
+
+}
+.my_margin{
+    margin-bottom: 10%;
+}
+.my_facts_background{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), #5c2d91);
+}
+.my_fact_heading{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #5c2d91;
+    font-weight: bold;
+    margin-top: 15%;
+
+
+}
+.my_fact_h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #5c2d91;
+    font-weight: bold;
+    margin-top: 7%;
+
+}
+.my_fact_p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #5c2d91;
+    font-weight: normal;
+    margin-top: 8%;
+
+}
+.orange{
+    background-color:#F15922 ;
+}
+.purple_{
+    background-color:#5c2d91 ;
+
+}
+.my_icons{
+    width: 20%;
+    cursor: pointer;
+    margin-left: 4%;
+    margin-top: 15%;
+    
+
+}
+.my_form_text{
+    color: black !important;
+    
+}
+.my_form{
+    margin-top: 10%;
+}
+@media only screen and (max-width: 600px) {
+   .my_heading{
+    font-size: 25px;
+   }
+   .my_heading_buy{
+    font-size: 11px;
+   }
+   .my_button{
+    height: 32px;
+width: 120px;
+border-radius: 13px;
+color: #f0f0f0;
+background-color: #f0f0f0;
+float: left;
+margin-left: 30%;
+
+}
+.my_icons{
+    margin-left: 0%;
+}
+
+.my_button_2{
+    height: 32px;
+    width: 57px;
+    border-radius: 12px;
+    margin-left: 5%;
+    font-size: 11px;
+
+}
+.my_fact_p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    margin-top: 8%;
+
+}
+.my_fact_h2{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 7%;
+
+}
+.my_fact_heading{
+    font-size: 20px;
+}
+
+  }
+  @media only screen and (max-width: 480px) {
+    .my_button{
+        margin-left: 19%;
+
+    }
+  }
+
+footer{
+    display: flex;
+    margin: 3%;
+    background: radial-gradient(circle, #ff4d4d, #cc0000);
+    border-radius: 5%;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    height: 250px;
+}
+.footertext{
+    padding: 3%;
+}
+
+footer img{
+    width: 40%;
+}
+
+input,textarea{
+    margin-bottom: 10px;
+    display: flex;
+    width: 50%;
+    margin-top: 1%;
+}
+button{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: transparent;
+    font-size: 2vh;
+    padding: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 8%;
+    border-color: #FFFFFF;
+
+}
